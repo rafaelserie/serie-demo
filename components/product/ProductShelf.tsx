@@ -46,7 +46,7 @@ function ProductShelf({
         fontSize={layout?.headerfontSize || "Large"}
         alignment={layout?.headerAlignment || "center"}
       />
-      <span>{subtitle}</span>
+      <span class="text-center">{subtitle}</span>
       <div
         id={id}
         class="container grid grid-cols-[48px_1fr_48px] px-0 sm:px-5 bg-gray-200"
