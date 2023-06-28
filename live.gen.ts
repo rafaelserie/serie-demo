@@ -209,8 +209,10 @@ const manifest = {
     "deco-sites/serie-demo/sections/Images/ShoppableBanner.tsx": $$$$$$$$4,
     "deco-sites/serie-demo/sections/Links/LinkTree.tsx": $$$$$$$$20,
     "deco-sites/serie-demo/sections/Links/Shortcuts.tsx": $$$$$$$$21,
-    "deco-sites/serie-demo/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$$$16,
-    "deco-sites/serie-demo/sections/Miscellaneous/CookieConsent.tsx": $$$$$$$$17,
+    "deco-sites/serie-demo/sections/Miscellaneous/CampaignTimer.tsx":
+      $$$$$$$$16,
+    "deco-sites/serie-demo/sections/Miscellaneous/CookieConsent.tsx":
+      $$$$$$$$17,
     "deco-sites/serie-demo/sections/Newsletter/Newsletter.tsx": $$$$$$$$22,
     "deco-sites/serie-demo/sections/Product/ProductDetails.tsx": $$$$$$$$15,
     "deco-sites/serie-demo/sections/Product/ProductShelf.tsx": $$$$$$$$14,

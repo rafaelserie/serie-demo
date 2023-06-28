@@ -16,6 +16,7 @@ export interface Props {
   products: LoaderReturnType<Product[] | null>;
   title?: string;
   description?: string;
+  subtitle?: string;
   layout?: {
     headerAlignment?: "center" | "left";
     headerfontSize?: "Normal" | "Large";
@@ -26,6 +27,7 @@ export interface Props {
 function ProductShelf({
   products,
   title,
+  subtitle,
   description,
   layout,
   cardLayout,
@@ -44,10 +46,10 @@ function ProductShelf({
         fontSize={layout?.headerfontSize || "Large"}
         alignment={layout?.headerAlignment || "center"}
       />
-
+      <span>{subtitle}</span>
       <div
         id={id}
-        class="container grid grid-cols-[48px_1fr_48px] px-0 sm:px-5"
+        class="container grid grid-cols-[48px_1fr_48px] px-0 sm:px-5 bg-gray-200"
       >
         <Slider class="carousel carousel-center sm:carousel-end gap-6 col-span-full row-start-2 row-end-5">
           {products?.map((product, index) => (
